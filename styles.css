@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One');
+
+body { background: #c1c1c1; }
+
+h3 {
+  font-family: 'Leckerli One', cursive;
+  font-size: 2em;
+  letter-spacing: 1px;
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
 .favorite {
-    background-color: lightblue
+  background-color: lightblue;
+}
+
+.button {
+  min-width: 128px;
+  padding: 10px;
+  display: block;
+  border: none;
+  border-radius: 6px;
+  background: #FFF;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background: orange;
 }
